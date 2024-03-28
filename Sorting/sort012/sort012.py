@@ -17,3 +17,30 @@ def sortColors(self, A):
             h-=1;
 
     return A;
+
+
+const reducer = (state, action) => {
+    switch(action.type) {
+        case "++": return state.count+1
+    }
+
+
+
+}
+
+
+cont store = createReducer(reducer);
+
+
+const counter = () {
+
+
+
+    const count = useSelector((state) => state.count)
+    const dispatch = useDis();
+
+    const Inncre = )_ => {
+        dis
+    }
+}
+}
